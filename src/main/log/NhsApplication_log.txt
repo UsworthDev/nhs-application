@@ -1,110 +1,110 @@
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.setUpValidator()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.setUpValidator()
 	*** NhsApplicationTest Test Start
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.frequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.frequencyAndAmountValid()
 	*** Testing for valid Frequency and Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: TWO_WEEK, Amount: 200.50
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 100.25
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.penceOnlyAmountInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.penceOnlyAmountInvalid()
 	*** Testing for invalid Pence only Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: QUARTER, Amount: 0.97
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 0.0746
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountFormatInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountFormatInvalid()
 	*** Testing for invalid Amount format
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: TWO_WEEK, Amount: NOTANUMBER
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	regularAmount Amount format invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.regularAmountInstanceIsNullInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.regularAmountInstanceIsNullInvalid()
 	*** Testing for Null Regular Amount instance
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.poundsOnlyAmountInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.poundsOnlyAmountInvalid()
 	*** Testing for invalid Pounds only Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: YEAR, Amount: 12345
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 237.4038
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.monthFrequencyValid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.monthFrequencyValid()
 	*** Testing for Month Frequency (No division)
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: MONTH, Amount: 99999.99
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 99999.99
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.frequencyAndAmountIsNullInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.frequencyAndAmountIsNullInvalid()
 	*** Testing for Null Frequency and Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountValid1()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountValid1()
 	*** Testing for valid Amount_1
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: QUARTER, Amount: 3345.68
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 257.36
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountValid2()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountValid2()
 	*** Testing for valid Amount_2
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: YEAR, Amount: 74714.12
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 1436.81
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.penceOnlyAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.penceOnlyAmountValid()
 	*** Testing for valid Pence only Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: QUARTER, Amount: 0.13
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 0.01
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.poundsOnlyAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.poundsOnlyAmountValid()
 	*** Testing for valid Pounds only Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: FOUR_WEEK, Amount: 2632
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 658
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is valid, returning true
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountZeroInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountZeroInvalid()
 	*** Testing for invalid Amount zero
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: TWO_WEEK, Amount: 0.00
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	regularAmount Amount is not Positive, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountInvalid()
 	*** Testing for invalid Amount
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: YEAR, Amount: 3410.62
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount: 65.5888
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	weeklyAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
-2019-07-12 10:28:38 com.nhs.demo.NhsApplicationTest.amountNegativeInvalid()
+2019-07-12 12:25:45 com.nhs.demo.NhsApplicationTest.amountNegativeInvalid()
 	*** Testing for invalid Amount negative
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	Checking regularAmount Frequency: TWO_WEEK, Amount: -341.87
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isFrequencyAndAmountValid()
 	regularAmount Amount is not Positive, returning false
-2019-07-12 10:28:38 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
+2019-07-12 12:25:45 com.nhs.demo.validator.ValidRegularAmountValidator.isValid()
 	regularAmount is invalid, returning false
