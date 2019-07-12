@@ -45,8 +45,6 @@ Weekly values for Frequency:
 * JUnit tests contained in `test..com.nhs.demo.NhsApplicationTest`.
 * Application logfile output in project root `NhsApplication_log.txt` 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ## Running the tests
 
 Tests are ran using the native JUnit support of the Maven Surefire Plugin.
