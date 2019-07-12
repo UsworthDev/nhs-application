@@ -42,7 +42,7 @@ Weekly values for Frequency:
 * `com.nhs.demo.model.RegularAmount` the object to be validated.
 * Frequency Enum `com.nhs.demo.enums.Frequency`. 
 * Constraint Validator classes `com.nhs.demo.validator.ValidRegularAmountValidator` and `com.nhs.demo.validator.ValidRegularAmount`
-* JUnit tests contained in `test..com.nhs.demo.NhsApplicationTest`.
+* JUnit tests contained in `test..com.nhs.demo.NhsApplicationTest`
 * Application logfile output in project root `NhsApplication_log.txt` 
 
 ## Running the tests
